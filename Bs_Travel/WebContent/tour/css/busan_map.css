@@ -1,0 +1,31 @@
+section {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+}
+
+.chart {
+    width: 100%;
+    min-height: 450px;
+}
+
+.text-monospace {
+    font-family: monospace;
+}
+
+/* @media (max-width: 575px) { */
+/*     .container { */
+/*         margin-top: 45px; */
+/*         margin-bottom: 45px; */
+/*     } */
+/* } */
+
+/* @media (min-width: 576px) { */
+/*     .container { */
+/*         margin-top: 100px; */
+/*         margin-bottom: 100px; */
+/*     } */
+/* } */

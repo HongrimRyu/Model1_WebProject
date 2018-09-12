@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.write_subject{
+	width: 93%;
+	border-style: solid ;
+	border-color: rgba(255, 148, 77, 0.9);
+	padding:1px;
+	margin-bottom: 10px;
+
+}
+.subject{
+background-color: rgba(191, 191, 191,0.4);
+width: 94%;
+height: 20px;
+padding:5px;
+margin: 1px;
+}
+.write_form {
+width: 95%;
+padding: 1px;
+}
+.write_button{
+margin-top:4px;
+float : right;
+}
+.submit, .cancel{
+	height: 30px; width: 150px; border: 1px solid #666;
+	border-radius:10px; box-shadow:3px 3px 2px #CCC;
+	font-size: 14px;
+}
+.cancel{
+background-image: url("../images/member/submit_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;
+}/*
+배경이미지 images/member/submit_back.jpg
+repeat-x center center 글자색 #fff*/
+.submit{margin: 0 0 0 20px;
+background-image: url("../images/member/cancel_back.jpg");
+background-repeat: repeat-x;
+background-position: center center;
+color: #fff;
+}
+
+
+
+</style>

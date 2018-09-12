@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+ div .title_bar{
+ 
+ border-top : 1px black solid;
+ border-bottom: 1px black dotted;
+ font-family: 굴림, gulim, tahoma, sans-serif;
+ font-size: 12px;
+ line-height: 1.6;
+ background-color: rgba(255, 117, 26, 0.6);
+ border-radius: 5px;
+ padding: 13px 12px 9px 17px;
+ }
+div .content_info{
+padding: 8px 6px 9px 9px;
+
+}
+div .content_info .bname{
+color: red;
+}
+div .bar2{
+    margin: 0 4px;
+}
+div .content_main{
+word-wrap : break-word;
+padding-top: 5px;
+padding-right: 5px;
+min-height: 300px;
+border-radius: 5px;
+background-color: rgba(255, 117, 26, 0.3);
+
+}
+.img_main{
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+*뷰어 영역 css*/
+			#f_comment{
+			height: 100%;
+			}
+			 #w_comment{
+			 word-wrap : break-word;
+			 border : 1px solid black;
+			 height: 100px;
+			 background-color: lightblue;
+			 border-radius: 4px;
+			 padding : 10px;
+			 
+			 }
+			 .r_comment{
+			  word-wrap : break-word;
+			  background-color: orange;
+			  border-radius: 4px;
+			  padding-bottm:10px;
+			  text-align:left;
+			 }
+			 .li_c{  
+			 	
+			  border-top: 1px solid rgba(90,90,90,0.6);
+			  padding-top: 10px;
+			  padding-bottom: 10px;
+			  width:100%;
+			 }
+			 .meta{
+			  font-size: 14px;
+			  font-weight: bold;
+			 }
+			
+			 #r_id{
+			 text-align:right;
+			 }
+			 #comment {
+			 border : 1px solid black;
+			 height: 100%;
+			 background-color: lightblue;
+			 border-radius: 4px;
+			 padding : 10px;
+			 }
+			
+			 .input_con{
+			     overflow: hidden; 
+			     width: 85%; 
+			     height: 100%;
+			 	 resize: none;
+			 }
+			 .comment_form{
+			 	width: 100%;
+			  
+			 }
+		
+			 #w_button{
+			 	float:right;
+			 
+			 }
+			 #text_length{
+			 font-size: 10px;
+			 }
+
+/*뷰어 영역 css*/
+/*사진게시판 리스트*/
+		 .galley_contents{
+		 border: 1px solid ;
+		 width: 100%;
+		 }
+		 .g_c{
+		 margin : 20px;
+		 
+		 width: 20%;
+		 display: inline-block;
+		 }
+		 .g_c > a > img{
+		    border: 1px solid ;
+		 	width:100%;
+		 	height:100px;
+		 }
+		 .g_c > div{
+		 text-align: center;
+		 }
